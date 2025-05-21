@@ -14,6 +14,6 @@ class ModRelax : Mod() {
         ModAutoplay::class, ModNoFail::class, ModAutopilot::class
     )
 
-    override fun calculateScoreMultiplier(difficulty: BeatmapDifficulty) = 1e-3f
+    override fun calculateScoreMultiplier(difficulty: BeatmapDifficulty) = 1.005f
     override fun deepCopy() = ModRelax()
 }
